@@ -384,6 +384,7 @@ footer {
   margin-left: -20px;
 }
 
+
 .rows label {
   margin-top: 10px;
   margin-left: 20px;
@@ -410,7 +411,7 @@ footer {
   height: 36px;
 }
 .wtsapp {
-  margin-left: -25px;
+  margin-left: -15px;
 }
 
 .row label {
@@ -523,7 +524,7 @@ label a {
     box-shadow: 1px 1px 5px 2px blueviolet;
     padding: 10px ;
     position: sticky;
-    top: 67px;
+    top: 65px;
   }
     /* ///////////////////////// frequent customer card ////////////////////////  */
   .request {
@@ -565,6 +566,10 @@ label a {
     margin: 0 10px;
   }
 }
+@media (min-width: 360px) {
+.news{
+  top: 87px;
+}
 @media (min-width: 375px) {
   header a{
     margin: 0;
@@ -578,8 +583,12 @@ label a {
 
 }
 .news{
-  top: 67px;
+  top: 66px;
 }
+}
+@media (min-width: 400px) {
+.news{
+  top: 66px;
 }
 /*medium devices (tablets 768px )*/
 @media (min-width: 768px) {
@@ -693,6 +702,9 @@ label a {
     margin-top: 25px;
     max-width: 256px;
   }
+  .news{
+    top: 48px;
+  }
 }
 /*large devices (desktops 992px)*/
 @media (min-width: 992px) {
@@ -736,6 +748,9 @@ label a {
   #contact {
     margin-top: 25px;
     max-width: 330px;
+  }
+  .news{
+    top: 48px;
   }
 }
 /*extra large devices (extra large 1200px)*/
@@ -784,5 +799,8 @@ label a {
   #contact {
     margin-top: 25px;
     max-width: 400px;
+  }
+  .news{
+    top: 52px;
   }
 }

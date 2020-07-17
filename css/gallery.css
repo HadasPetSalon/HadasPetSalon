@@ -124,32 +124,32 @@ table {
 }
 /*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 body {
-background-color: white;
+  background-color: white;
 }
 .title {
   text-align: center;
   font-size: 65px;
   font-family: "Bangers";
-  text-shadow: 1px 1px 5px  rgb(255, 0, 191);
+  text-shadow: 1px 1px 5px rgb(255, 0, 191);
   background: white;
   border: 5px groove rgb(255, 0, 191);
   box-shadow: 1px 2px 4px rgb(0, 0, 0);
   padding: 20px;
 }
-#home-page{
-margin: 15px;
+#home-page {
+  margin: 15px;
 }
-#home-page a{
+#home-page a {
   font-family: "Bangers";
   font-weight: lighter;
   color: black;
-  text-shadow: 1px 1px 5px  rgb(255, 0, 191);
+  text-shadow: 1px 1px 5px rgb(255, 0, 191);
   font-size: 25px;
   text-decoration: none;
 }
-#home-page a:hover{
+#home-page a:hover {
   color: rgba(255, 0, 98, 0.705);
-  text-shadow: 2px 2px 5px  rgba(0, 0, 0, 0.473);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
   font-family: "Indie Flower", cursive;
   font-size: 30px;
 }
@@ -252,7 +252,6 @@ footer {
   align-items: center;
   flex-direction: column;
   margin-top: 25px;
-  display: flexbox;
 }
 
 .rows {
@@ -319,6 +318,8 @@ label a {
 }
 
 .copyright {
+  margin-left: auto;
+  margin-right: auto;
   color: #c7c7c7;
 }
 
@@ -357,18 +358,18 @@ label a {
     flex-direction: column;
   }
 }
-@media (min-width:768px){
-  .pic{
+@media (min-width: 768px) {
+  .pic {
     width: 320px;
-    margin:10px ;
+    margin: 10px;
   }
-  .pic img{
+  .pic img {
     width: 300px;
   }
-  .pic video{
+  .pic video {
     width: 300px;
   }
-  .datetxt{
+  .datetxt {
     width: 315px;
   }
   .container-body {
@@ -398,10 +399,3 @@ label a {
     max-width: 256px;
   }
 }
-
-
-
-
-
-
-
